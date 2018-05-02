@@ -1,0 +1,72 @@
+body{
+    background-image: url("../images/background.jpg");
+    font-size: 28px;
+}
+div{
+	margin: 20px;
+	width: 25%
+}
+div{
+	padding: 20px;
+}
+h1, span{
+    text-align: left;
+    background-color: red;
+    width: 30%;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: 38px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 20px;
+    background-color: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+
+h3 {
+    text-align: left;
+    background-color: green;
+    width: 50%;
+    font-style: oblique;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 28px;
+}
+
+
+.crystals{
+    width: 70%;
+    clear: both;
+}
+.crystalImage{
+    height: 80px;
+}
+
+.header, .instructions{
+	width: 100%;
+}
+
+.numberToGuess, .score{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.crystals{
+	clear: both;
+}
+
+.crystalImage {
+    width: 150px;
+    height: 150px;
+  }
+ 

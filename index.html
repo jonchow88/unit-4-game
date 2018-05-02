@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CrystalsCollector Game!</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+</head>
+
+<body>
+  <div class="header">
+		<h1>CrystalsCollector Game!</h1>
+	</div>
+	<div class="instructions">
+		<h2>How To Play!</h2>
+		</br>
+    <h2>A random number will be given to you at the start of the game!</h2>
+    <h2>Each of the four crystals below has a random value. Every time you click a crystal, it will be added to your score.</h2> 
+    <h2>Win the game by matching your total score to the random number EXACTLY (NO MORE NO LESS)!</h2>
+	</div>
+	<div class="numberToMatch">
+		<h3>Number To Guess:
+      			<span id= "randomNumber"></span>
+    </h3>
+     
+	</div>
+  <div class="winsAndLosses">
+      <h3>Wins:
+        <span id= "numberWins"></span>
+        </br>
+        Losses: 
+        <span id= "numberLosses"></span>
+      </h3>
+    </div>
+ 
+  <br>
+
+  <div class="crystals">
+		<img src="assets/images/blue.jpg" class=crystalImage id="blue" alt="Blue Crystal">
+		<img src="assets/images/green.jpg" class=crystalImage id="green" alt="Green Crystal">
+		<img src="assets/images/red.jpg" class=crystalImage id= "red" alt="Red Crystal">
+		<img src="assets/images/yellow.jpg" class=crystalImage id= "yellow" alt="Yellow Crystal">
+	</div>
+
+  <div class="userTotal">
+		<h3>Your total score is:
+			<span id="finalTotal"></span>
+		</h3>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
